@@ -4,11 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mind the Number</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <div class="game-container">
+        <h1 style="color: white;">Lucky Guess</h1>
+        <input type="text" id="guess">
+        <button onclick="checkGuess()">Guess</button>
+        <p id="result"></p>
+        <p id="attempts"></p>
+        <p style="color: rgb(83, 192, 239);">How to Play ?</p>
+        <p style="color: white;">1. Guess a number in range 1 and 100</p>
+        <p style="color: white;">2. Avoid decimal or fractional numbers</p>
+        <p style="color: white;">3. Don't use Alphabets or other symbols</p>
+        <p style="color: rgb(251, 243, 9);text-decoration: solid;font-weight: bold;font-size:xx-large;">All the
+            Best!!!!!!!!!!!</p>
 
+    </div>
+    <script src="script.js"></script>
 </body>
-
-</html>

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('gameGuessthenum.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container {
+    background-color: rgb(75, 74, 74);
+    padding: 30px;
+    border-radius: 100px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    height: 500px;
+}
+
+input {
+    padding: 15px;
+    font-size: 16px;
+    margin: 10px 0;
+
+}
+
+/* input:hover {
+    background-color: rgb(248, 248, 248);
+} */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: rgb(249, 245, 245);
+    border: 0;
+    border-radius: 200px;
+}
+
+button:hover {
+    background-color: #ff0707;
+}
+
+p {
+    font-size: 18px;
+}
